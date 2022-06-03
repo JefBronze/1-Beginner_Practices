@@ -1,0 +1,136 @@
+2022.06.02 20:14:13 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\.metals\lsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.02 20:14:21 INFO  logging to file C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\.metals\metals.log
+2022.06.02 20:14:22 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3' for client Visual Studio Code 1.67.2.
+2022.06.02 20:14:26 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(8)), jdkHome: C:\Java, javac exists: false)
+2022.06.02 20:14:31 INFO  time: initialize in 13s
+2022.06.02 20:14:32 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.02 20:14:32 WARN  Build server is not auto-connectable.
+2022.06.02 20:15:27 INFO  running 'C:\Java\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jeferson\AppData\Local\Temp\metals2954318037400828401\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.02 20:15:42 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 1.8.0_333)
+2022.06.02 20:15:51 INFO  [info] loading settings for project scala3-build-build from metals.sbt ...
+2022.06.02 20:15:53 INFO  [info] loading project definition from C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\project\project
+2022.06.02 20:16:04 INFO  [info] loading settings for project scala3-build from metals.sbt ...
+2022.06.02 20:16:04 INFO  [info] loading project definition from C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\project
+2022.06.02 20:16:17 INFO  [success] Generated .bloop\scala3-build.json
+2022.06.02 20:16:17 INFO  [success] Total time: 12 s, completed 02/06/2022 20:16:17
+2022.06.02 20:16:24 INFO  [info] loading settings for project root from build.sbt ...
+2022.06.02 20:16:24 INFO  [info] set current project to scala3 (in build file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/scala3/)
+2022.06.02 20:16:46 INFO  [success] Generated .bloop\root.json
+2022.06.02 20:16:46 INFO  [success] Generated .bloop\root-test.json
+2022.06.02 20:16:46 INFO  [success] Total time: 20 s, completed 02/06/2022 20:16:46
+2022.06.02 20:16:47 INFO  time: ran 'sbt bloopInstall' in 1m19s
+2022.06.02 20:16:47 INFO  Attempting to connect to the build server...
+2022.06.02 20:16:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 20:16:50 INFO  Attempting to connect to the build server...
+2022.06.02 20:16:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\project\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 20:16:51 INFO  time: Connected to build server in 4.5s
+2022.06.02 20:16:51 INFO  Connected to Build server: Bloop v1.5.0
+2022.06.02 20:16:52 INFO  time: Imported build in 1.26s
+2022.06.02 20:17:08 WARN  Could not find java sources in C:\src.zip, C:\lib\src.zip, C:\Java\src.zip, C:\Java\lib\src.zip. Java symbols will not be available.
+2022.06.02 20:17:16 WARN  Could not find java sources in C:\src.zip, C:\lib\src.zip, C:\Java\src.zip, C:\Java\lib\src.zip. Java symbols will not be available.
+2022.06.02 20:17:16 INFO  time: indexed workspace in 23s
+2022.06.02 20:19:25 INFO  compiling root (1 scala source)
+2022.06.02 20:19:47 INFO  time: compiled root in 22s
+2022.06.02 20:20:36 INFO  compiling root-test (1 scala source)
+2022.06.02 20:20:40 INFO  time: compiled root-test in 3.8s
+2022.06.02 21:04:11 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\.metals\lsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.02 21:04:19 INFO  logging to file C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\.metals\metals.log
+2022.06.02 21:04:19 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3' for client Visual Studio Code 1.67.2.
+2022.06.02 21:04:19 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(8)), jdkHome: C:\Java, javac exists: false)
+2022.06.02 21:04:22 INFO  time: initialize in 3.2s
+2022.06.02 21:04:29 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.02 21:04:29 INFO  Attempting to connect to the build server...
+2022.06.02 21:04:30 INFO  skipping build import with status 'Installed'
+2022.06.02 21:05:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 21:05:12 INFO  Attempting to connect to the build server...
+2022.06.02 21:05:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\project\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 21:05:12 INFO  time: Connected to build server in 42s
+2022.06.02 21:05:12 INFO  Connected to Build server: Bloop v1.5.0
+2022.06.02 21:05:12 INFO  time: Imported build in 0.48s
+2022.06.02 21:05:26 WARN  Could not find java sources in C:\src.zip, C:\lib\src.zip, C:\Java\src.zip, C:\Java\lib\src.zip. Java symbols will not be available.
+2022.06.02 21:05:35 WARN  Could not find java sources in C:\src.zip, C:\lib\src.zip, C:\Java\src.zip, C:\Java\lib\src.zip. Java symbols will not be available.
+2022.06.02 21:05:35 INFO  time: indexed workspace in 22s
+2022.06.02 22:07:31 INFO  shutting down Metals
+2022.06.02 22:07:31 INFO  Shut down connection with build server.
+2022.06.02 22:07:31 INFO  Shut down connection with build server.
+2022.06.02 22:19:40 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\.metals\lsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.02 22:19:44 INFO  logging to file C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\.metals\metals.log
+2022.06.02 22:19:44 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3' for client Visual Studio Code 1.67.2.
+2022.06.02 22:19:50 INFO  time: initialize in 6.13s
+2022.06.02 22:19:51 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.02 22:19:52 INFO  Attempting to connect to the build server...
+2022.06.02 22:19:52 INFO  skipping build import with status 'Installed'
+2022.06.02 22:20:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 22:20:08 INFO  Attempting to connect to the build server...
+2022.06.02 22:20:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\project\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 22:20:09 ERROR No `release` file found in C:\Java - using Bloop's JVM version 18.0.1.1
+2022.06.02 22:20:08 INFO  time: Connected to build server in 16s
+2022.06.02 22:20:08 INFO  Connected to Build server: Bloop v1.5.0
+2022.06.02 22:20:09 INFO  time: Imported build in 0.6s
+2022.06.02 22:20:19 INFO  time: indexed workspace in 10s
+2022.06.02 22:22:37 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jeferson\AppData\Local\Temp\metals4940257814343245244\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.02 22:22:43 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 18.0.1.1)
+2022.06.02 22:22:46 INFO  [info] loading settings for project scala3-build-build from metals.sbt ...
+2022.06.02 22:22:48 INFO  [info] loading project definition from C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\project\project
+2022.06.02 22:22:51 INFO  [info] loading settings for project scala3-build from metals.sbt ...
+2022.06.02 22:22:51 INFO  [info] loading project definition from C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\project
+2022.06.02 22:23:03 INFO  [success] Generated .bloop\scala3-build.json
+2022.06.02 22:23:03 INFO  [success] Total time: 12 s, completed 2 de jun. de 2022 22:23:03
+2022.06.02 22:23:04 INFO  [info] loading settings for project root from build.sbt ...
+2022.06.02 22:23:04 INFO  [info] set current project to scala3 (in build file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/scala3/)
+2022.06.02 22:23:06 INFO  [success] Generated .bloop\root.json
+2022.06.02 22:23:06 INFO  [success] Generated .bloop\root-test.json
+2022.06.02 22:23:06 INFO  [success] Total time: 1 s, completed 2 de jun. de 2022 22:23:06
+2022.06.02 22:23:07 INFO  time: ran 'sbt bloopInstall' in 29s
+2022.06.02 22:23:07 INFO  Disconnecting from Bloop session...
+2022.06.02 22:23:07 INFO  Shut down connection with build server.
+2022.06.02 22:23:07 INFO  Shut down connection with build server.
+2022.06.02 22:23:07 INFO  Attempting to connect to the build server...
+2022.06.02 22:23:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 22:23:07 INFO  Attempting to connect to the build server...
+2022.06.02 22:23:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\project\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 22:23:07 INFO  time: Connected to build server in 0.3s
+2022.06.02 22:23:07 INFO  Connected to Build server: Bloop v1.5.0
+2022.06.02 22:23:07 INFO  time: Imported build in 0.24s
+2022.06.02 22:23:13 INFO  time: indexed workspace in 5.8s
+2022.06.02 22:23:25 INFO  Disconnecting from Bloop session...
+2022.06.02 22:23:25 INFO  Shut down connection with build server.
+2022.06.02 22:23:25 INFO  Shut down connection with build server.
+2022.06.02 22:23:25 INFO  Attempting to connect to the build server...
+2022.06.02 22:23:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 22:23:25 INFO  Attempting to connect to the build server...
+2022.06.02 22:23:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\project\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 22:23:25 INFO  time: Connected to build server in 0.19s
+2022.06.02 22:23:25 INFO  Connected to Build server: Bloop v1.5.0
+2022.06.02 22:23:25 INFO  time: Imported build in 0.2s
+2022.06.02 22:23:31 INFO  time: indexed workspace in 5.35s
+2022.06.02 22:23:37 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jeferson\AppData\Local\Temp\metals11671224081905013842\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.02 22:23:45 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 18.0.1.1)
+2022.06.02 22:23:50 INFO  [info] loading settings for project scala3-build-build from metals.sbt ...
+2022.06.02 22:23:52 INFO  [info] loading project definition from C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\project\project
+2022.06.02 22:23:55 INFO  [info] loading settings for project scala3-build from metals.sbt ...
+2022.06.02 22:23:55 INFO  [info] loading project definition from C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\project
+2022.06.02 22:24:13 INFO  [success] Generated .bloop\scala3-build.json
+2022.06.02 22:24:13 INFO  [success] Total time: 17 s, completed 2 de jun. de 2022 22:24:13
+2022.06.02 22:24:14 INFO  [info] loading settings for project root from build.sbt ...
+2022.06.02 22:24:14 INFO  [info] set current project to scala3 (in build file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/scala3/)
+2022.06.02 22:24:16 INFO  [success] Generated .bloop\root.json
+2022.06.02 22:24:16 INFO  [success] Generated .bloop\root-test.json
+2022.06.02 22:24:16 INFO  [success] Total time: 1 s, completed 2 de jun. de 2022 22:24:17
+2022.06.02 22:24:17 INFO  time: ran 'sbt bloopInstall' in 39s
+2022.06.02 22:24:17 INFO  Disconnecting from Bloop session...
+2022.06.02 22:24:17 INFO  Shut down connection with build server.
+2022.06.02 22:24:17 INFO  Shut down connection with build server.
+2022.06.02 22:24:17 INFO  Attempting to connect to the build server...
+2022.06.02 22:24:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 22:24:17 INFO  Attempting to connect to the build server...
+2022.06.02 22:24:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\scala3\project\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 22:24:17 INFO  time: Connected to build server in 0.25s
+2022.06.02 22:24:17 INFO  Connected to Build server: Bloop v1.5.0
+2022.06.02 22:24:18 INFO  time: Imported build in 0.17s
+2022.06.02 22:24:24 INFO  time: indexed workspace in 6.04s
+2022.06.02 22:26:40 INFO  compiling root (1 scala source)
+2022.06.02 22:26:51 INFO  time: compiled root in 11s
+2022.06.02 22:27:41 INFO  shutting down Metals
+2022.06.02 22:27:41 INFO  Shut down connection with build server.
+2022.06.02 22:27:41 INFO  Shut down connection with build server.

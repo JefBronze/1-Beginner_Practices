@@ -1,0 +1,840 @@
+2022.06.02 22:50:23 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\.metals\lsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.02 22:50:27 INFO  logging to file C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\.metals\metals.log
+2022.06.02 22:50:27 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy' for client Visual Studio Code 1.67.2.
+2022.06.02 22:50:33 INFO  time: initialize in 5.45s
+2022.06.02 22:50:33 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.02 22:50:34 WARN  Build server is not auto-connectable.
+2022.06.02 22:51:04 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jeferson\AppData\Local\Temp\metals12159575452564643377\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.02 22:51:10 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 18.0.1.1)
+2022.06.02 22:51:18 INFO  [info] loading settings for project cursoudemy-build-build from metals.sbt ...
+2022.06.02 22:51:20 INFO  [info] loading project definition from C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\project\project
+2022.06.02 22:51:28 INFO  [info] loading settings for project cursoudemy-build from metals.sbt ...
+2022.06.02 22:51:28 INFO  [info] loading project definition from C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\project
+2022.06.02 22:51:42 INFO  [success] Generated .bloop\cursoudemy-build.json
+2022.06.02 22:51:42 INFO  [success] Total time: 13 s, completed 2 de jun. de 2022 22:51:43
+2022.06.02 22:51:47 INFO  [info] loading settings for project cursoudemy from build.sbt ...
+2022.06.02 22:51:47 INFO  [info] set current project to hello-world (in build file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/)
+2022.06.02 22:51:51 INFO  [success] Generated .bloop\cursoudemy.json
+2022.06.02 22:51:51 INFO  [success] Generated .bloop\cursoudemy-test.json
+2022.06.02 22:51:51 INFO  [success] Total time: 1 s, completed 2 de jun. de 2022 22:51:51
+2022.06.02 22:51:51 INFO  time: ran 'sbt bloopInstall' in 47s
+2022.06.02 22:51:51 INFO  Attempting to connect to the build server...
+2022.06.02 22:51:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 22:51:52 INFO  Attempting to connect to the build server...
+2022.06.02 22:51:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\project\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 22:51:52 INFO  time: Connected to build server in 1.45s
+2022.06.02 22:51:52 INFO  Connected to Build server: Bloop v1.5.0
+2022.06.02 22:51:53 INFO  time: Imported build in 0.4s
+2022.06.02 22:52:07 INFO  time: indexed workspace in 14s
+2022.06.02 22:52:40 INFO  compiling cursoudemy (1 scala source)
+2022.06.02 22:52:45 INFO  time: compiled cursoudemy in 4.82s
+jun. 02, 2022 10:54:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.02 22:54:09 INFO  shutting down Metals
+2022.06.02 22:54:09 ERROR Unexpected error initializing server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2022.06.02 22:58:45 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\.metals\lsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.02 22:58:50 INFO  logging to file C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\.metals\metals.log
+2022.06.02 22:58:50 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy' for client Visual Studio Code 1.67.2.
+2022.06.02 22:58:59 INFO  time: initialize in 8.75s
+2022.06.02 22:59:00 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.02 22:59:01 INFO  Attempting to connect to the build server...
+2022.06.02 22:59:02 INFO  skipping build import with status 'Installed'
+2022.06.02 22:59:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 22:59:01 INFO  Attempting to connect to the build server...
+2022.06.02 22:59:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\project\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 22:59:03 INFO  time: Connected to build server in 1.14s
+2022.06.02 22:59:03 INFO  Connected to Build server: Bloop v1.5.0
+2022.06.02 22:59:02 INFO  time: Imported build in 0.56s
+2022.06.02 22:59:16 INFO  time: indexed workspace in 13s
+2022.06.02 23:00:17 INFO  compiling cursoudemy (44 scala sources)
+2022.06.02 23:00:24 INFO  Deduplicating compilation of cursoudemy from bsp client 'Metals 0.11.5' (since 1m 21.365s)
+2022.06.02 23:00:24 INFO  compiling cursoudemy (44 scala sources)
+2022.06.02 23:00:32 INFO  time: compiled cursoudemy in 7.87s
+2022.06.02 23:00:50 INFO  compiling cursoudemy (44 scala sources)
+2022.06.02 23:00:56 INFO  time: compiled cursoudemy in 6.73s
+2022.06.02 23:04:30 INFO  time: code lens generation in 15s
+2022.06.02 23:04:30 INFO  time: code lens generation in 11s
+2022.06.02 23:04:56 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jeferson\AppData\Local\Temp\metals13038203286879866979\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.02 23:05:06 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 18.0.1.1)
+2022.06.02 23:05:09 INFO  [info] loading settings for project cursoudemy-build-build from metals.sbt ...
+2022.06.02 23:05:11 INFO  [info] loading project definition from C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\project\project
+2022.06.02 23:05:14 INFO  compiling cursoudemy (44 scala sources)
+2022.06.02 23:05:15 INFO  [info] loading settings for project cursoudemy-build from metals.sbt ...
+2022.06.02 23:05:15 INFO  [info] loading project definition from C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\project
+2022.06.02 23:05:23 INFO  time: compiled cursoudemy in 8.99s
+2022.06.02 23:05:34 INFO  [success] Generated .bloop\cursoudemy-build.json
+2022.06.02 23:05:34 INFO  [success] Total time: 19 s, completed 2 de jun. de 2022 23:05:35
+2022.06.02 23:05:37 ERROR C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\build.sbt:28: error: No Append.Values[Seq[sbt.librarymanagement.ModuleID], sbt.librarymanagement.ModuleID] found, so sbt.librarymanagement.ModuleID cannot be appended to Seq[sbt.librarymanagement.ModuleID]
+2022.06.02 23:05:37 ERROR libraryDependencies ++= "org.scala-lang.modules" %% "scala-parser-combinators" % "2.1.1"
+2022.06.02 23:05:37 ERROR                     ^
+2022.06.02 23:05:37 INFO  [error] Type error in expression
+2022.06.02 23:05:37 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2022.06.02 23:05:37 INFO  time: ran 'sbt bloopInstall' in 41s
+2022.06.02 23:05:37 ERROR sbt command failed: C:\Program Files\Java\jdk-18.0.1.1\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jeferson\AppData\Local\Temp\metals13038203286879866979\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2022.06.02 23:05:37 INFO  Disconnecting from Bloop session...
+2022.06.02 23:05:37 INFO  Shut down connection with build server.
+2022.06.02 23:05:38 INFO  Shut down connection with build server.
+2022.06.02 23:05:37 INFO  Attempting to connect to the build server...
+2022.06.02 23:05:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 23:05:37 INFO  Attempting to connect to the build server...
+2022.06.02 23:05:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\project\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 23:05:37 INFO  time: Connected to build server in 0.17s
+2022.06.02 23:05:37 INFO  Connected to Build server: Bloop v1.5.0
+2022.06.02 23:05:38 INFO  time: Imported build in 0.12s
+2022.06.02 23:05:43 INFO  time: indexed workspace in 5.28s
+2022.06.02 23:05:44 INFO  compiling cursoudemy (44 scala sources)
+2022.06.02 23:05:49 INFO  time: compiled cursoudemy in 5.63s
+2022.06.02 23:06:43 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jeferson\AppData\Local\Temp\metals6585353069419591758\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.02 23:06:49 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 18.0.1.1)
+2022.06.02 23:06:51 INFO  [info] loading settings for project cursoudemy-build-build from metals.sbt ...
+2022.06.02 23:06:53 INFO  [info] loading project definition from C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\project\project
+2022.06.02 23:06:56 INFO  [info] loading settings for project cursoudemy-build from metals.sbt ...
+2022.06.02 23:06:56 INFO  [info] loading project definition from C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\project
+2022.06.02 23:07:07 INFO  [success] Generated .bloop\cursoudemy-build.json
+2022.06.02 23:07:07 INFO  [success] Total time: 11 s, completed 2 de jun. de 2022 23:07:08
+2022.06.02 23:07:09 INFO  [info] loading settings for project cursoudemy from build.sbt ...
+2022.06.02 23:07:09 INFO  [info] set current project to hello-world (in build file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/)
+2022.06.02 23:07:10 INFO  [success] Generated .bloop\cursoudemy-test.json
+2022.06.02 23:07:10 INFO  [success] Generated .bloop\cursoudemy.json
+2022.06.02 23:07:10 INFO  [success] Total time: 1 s, completed 2 de jun. de 2022 23:07:10
+2022.06.02 23:07:11 INFO  time: ran 'sbt bloopInstall' in 28s
+2022.06.02 23:07:11 INFO  Disconnecting from Bloop session...
+2022.06.02 23:07:11 INFO  Shut down connection with build server.
+2022.06.02 23:07:11 INFO  Shut down connection with build server.
+2022.06.02 23:07:11 INFO  Attempting to connect to the build server...
+2022.06.02 23:07:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 23:07:11 INFO  Attempting to connect to the build server...
+2022.06.02 23:07:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\project\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 23:07:11 INFO  time: Connected to build server in 0.41s
+2022.06.02 23:07:11 INFO  Connected to Build server: Bloop v1.5.0
+2022.06.02 23:07:11 INFO  time: Imported build in 0.11s
+2022.06.02 23:07:16 INFO  time: indexed workspace in 5.01s
+2022.06.02 23:07:17 INFO  compiling cursoudemy (44 scala sources)
+2022.06.02 23:07:22 INFO  time: compiled cursoudemy in 5.13s
+2022.06.02 23:07:23 INFO  time: code lens generation in 2.59s
+jun. 02, 2022 11:08:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FJeferson%2FOneDrive%2FDev%2F1Projetos%2F1_Practice%2F1%2520Beginner_Practices%2FSparkScalaCourse%2Fcursoudemy%2Fbuild.sbt:36: error: ) expected but string constant found
+    "org.apache.spark" %% "spark-core" % "3.0.0",
+    ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FJeferson%2FOneDrive%2FDev%2F1Projetos%2F1_Practice%2F1%2520Beginner_Practices%2FSparkScalaCourse%2Fcursoudemy%2Fbuild.sbt:36: error: ) expected but string constant found
+    "org.apache.spark" %% "spark-core" % "3.0.0",
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:360)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:364)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpen(ScalametaParser.scala:222)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensOnOpen(ScalametaParser.scala:218)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsWithUsing(ScalametaParser.scala:2236)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2185)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2148)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$5(ScalametaParser.scala:2093)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2093)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:334)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:344)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2043)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2041)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2025)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsOrPrefixExpr(ScalametaParser.scala:2200)
+	at scala.meta.internal.parsers.ScalametaParser.loop$6(ScalametaParser.scala:1991)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2013)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1568)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1457)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.$anonfun$applyOrElse$1(ScalametaParser.scala:4049)
+	at scala.meta.internal.parsers.ScalametaParser.stat(ScalametaParser.scala:4086)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4049)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4042)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:145)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4108)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4324)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4324)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4279)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4277)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:203)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2022.06.02 23:09:46 INFO  skipping build import with status 'Dismissed'
+2022.06.02 23:10:14 INFO  compiling cursoudemy (44 scala sources)
+2022.06.02 23:10:20 INFO  time: compiled cursoudemy in 5.37s
+2022.06.02 23:11:14 INFO  compiling cursoudemy (44 scala sources)
+2022.06.02 23:11:19 INFO  time: compiled cursoudemy in 5.07s
+2022.06.02 23:11:19 INFO  compiling cursoudemy (44 scala sources)
+2022.06.02 23:11:22 INFO  time: compiled cursoudemy in 3.3s
+2022.06.02 23:11:30 INFO  compiling cursoudemy (44 scala sources)
+2022.06.02 23:11:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 23:11:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 23:11:40 INFO  time: compiled cursoudemy in 9.52s
+2022.06.02 23:11:40 INFO  compiling cursoudemy (44 scala sources)
+2022.06.02 23:11:41 INFO  Ammonite: Starting BSP server
+
+2022.06.02 23:11:42 INFO  Ammonite: Starting BSP server
+
+2022.06.02 23:11:43 INFO  Connected to Ammonite Build server v2.5.2
+2022.06.02 23:11:43 INFO  Connected to Ammonite Build server v2.5.2
+2022.06.02 23:11:48 INFO  time: compiled cursoudemy in 8.29s
+2022.06.02 23:11:48 INFO  compiling cursoudemy (44 scala sources)
+2022.06.02 23:11:56 INFO  time: compiled cursoudemy in 7.26s
+2022.06.02 23:12:11 INFO  shutting down Metals
+2022.06.02 23:12:11 INFO  Shut down connection with build server.
+2022.06.02 23:12:11 INFO  Shut down connection with build server.
+2022.06.02 23:12:11 INFO  Scala targets not supported by server
+2022.06.02 23:12:11 INFO  Scala targets not supported by server
+2022.06.02 23:12:11 INFO  Shut down connection with build server.
+2022.06.02 23:12:11 INFO  Ammonite: jun. 02, 2022 11:12:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint request
+WARNING: Unsupported request method: buildTarget/javacOptions
+
+2022.06.02 23:12:11 INFO  Java targets not supported by server
+2022.06.02 23:12:11 INFO  Ammonite: BSP server done
+
+2022.06.02 23:12:11 INFO  Java targets not supported by server
+2022.06.02 23:12:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 23:36:20 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\.metals\lsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.02 23:36:23 INFO  logging to file C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\.metals\metals.log
+2022.06.02 23:36:23 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy' for client Visual Studio Code 1.67.2.
+2022.06.02 23:36:30 INFO  time: initialize in 6.93s
+2022.06.02 23:36:32 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.02 23:36:32 INFO  Attempting to connect to the build server...
+2022.06.02 23:36:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 23:36:32 INFO  Attempting to connect to the build server...
+2022.06.02 23:36:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\project\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 23:36:34 INFO  time: Connected to build server in 1.43s
+2022.06.02 23:36:34 INFO  Connected to Build server: Bloop v1.5.0
+2022.06.02 23:36:34 INFO  time: Imported build in 0.53s
+2022.06.02 23:36:43 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jeferson\AppData\Local\Temp\metals14352279687792789687\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+jun. 02, 2022 11:36:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2022.06.02 23:36:51 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 18.0.1.1)
+2022.06.02 23:36:54 INFO  [info] loading settings for project cursoudemy-build-build from metals.sbt ...
+2022.06.02 23:36:57 INFO  [info] loading project definition from C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\project\project
+2022.06.02 23:36:59 INFO  time: indexed workspace in 24s
+2022.06.02 23:37:00 INFO  compiling cursoudemy (44 scala sources)
+2022.06.02 23:37:00 INFO  [info] loading settings for project cursoudemy-build from metals.sbt ...
+2022.06.02 23:37:02 INFO  [info] loading project definition from C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\project
+2022.06.02 23:37:10 INFO  time: compiled cursoudemy in 10s
+2022.06.02 23:37:10 INFO  compiling cursoudemy (44 scala sources)
+2022.06.02 23:37:15 INFO  time: compiled cursoudemy in 5.22s
+2022.06.02 23:37:24 INFO  [success] Generated .bloop\cursoudemy-build.json
+2022.06.02 23:37:24 INFO  [success] Total time: 22 s, completed 2 de jun. de 2022 23:37:24
+2022.06.02 23:37:30 INFO  [info] loading settings for project cursoudemy from build.sbt ...
+2022.06.02 23:37:30 INFO  [info] set current project to hello-world (in build file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/)
+2022.06.02 23:37:33 INFO  [warn] 
+2022.06.02 23:37:33 INFO  [warn] 	Note: Unresolved dependencies path:
+2022.06.02 23:37:33 INFO  [error] Couldn't run bloopGenerate for cursoudemy. Cause:
+2022.06.02 23:37:33 INFO  [error] Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),updateClassifiers)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Select(updateClassifiers), Zero),classifiersModule)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error] Couldn't run bloopGenerate for cursoudemy-test. Cause:
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error] Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),updateClassifiers)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Select(updateClassifiers), Zero),classifiersModule)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),scalaInstance)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(test)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(test)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(test)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(test)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(test)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(test)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),scalaInstance)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/Jeferson/OneDrive/Dev/1Projetos/1_Practice/1%20Beginner_Practices/SparkScalaCourse/cursoudemy/,cursoudemy)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-core_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.0.0/spark-core_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-mllib_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-mllib_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.13/3.0.0/spark-mllib_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-streaming_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-streaming_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.0.0/spark-streaming_2.13-3.0.0.pom
+2022.06.02 23:37:33 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.0.0
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   Not found
+2022.06.02 23:37:33 INFO  [error]   not found: C:\Users\Jeferson\.ivy2\localorg.apache.spark\spark-sql_2.13\3.0.0\ivys\ivy.xml
+2022.06.02 23:37:33 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.0.0/spark-sql_2.13-3.0.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)
+2022.06.02 23:37:33 INFO  [warn] Removed stale C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\.bloop\cursoudemy-test.json
+2022.06.02 23:37:33 INFO  [warn] Removed stale C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\.bloop\cursoudemy.json
+2022.06.02 23:37:33 INFO  [success] Total time: 3 s, completed 2 de jun. de 2022 23:37:34
+2022.06.02 23:37:34 INFO  time: ran 'sbt bloopInstall' in 51s
+2022.06.02 23:37:34 INFO  Disconnecting from Bloop session...
+2022.06.02 23:37:35 INFO  Shut down connection with build server.
+2022.06.02 23:37:35 INFO  Shut down connection with build server.
+2022.06.02 23:37:35 INFO  Attempting to connect to the build server...
+2022.06.02 23:37:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 23:37:35 INFO  Attempting to connect to the build server...
+2022.06.02 23:37:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\project\.metals\bsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.02 23:37:35 INFO  time: Connected to build server in 0.18s
+2022.06.02 23:37:35 INFO  Connected to Build server: Bloop v1.5.0
+2022.06.02 23:37:35 ERROR Empty build targets. Expected at least one build target identifier.
+2022.06.02 23:37:35 ERROR Empty build targets. Expected at least one build target identifier.
+2022.06.02 23:37:35 ERROR Empty build targets. Expected at least one build target identifier.
+2022.06.02 23:37:35 ERROR Empty build targets. Expected at least one build target identifier.
+2022.06.02 23:37:35 INFO  time: Imported build in 0.12s
+2022.06.02 23:37:40 INFO  time: indexed workspace in 4.8s
+2022.06.02 23:37:40 WARN  no build target for: C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\src\main\scala\com\sundogsoftware\spark\HelloWorld.scala
+2022.06.02 23:37:53 INFO  time: code lens generation in 12s
+2022.06.03 10:42:41 WARN  no build target for: C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\src\main\scala\com\sundogsoftware\spark\PopularMovies.scala
+2022.06.03 10:42:45 WARN  no build target for: C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\src\main\scala\com\sundogsoftware\spark\MovieSimilarities1MDatasetLocal.scala
+2022.06.03 10:42:49 INFO  time: code lens generation in 1.38s
+jun. 03, 2022 11:15:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+jun. 03, 2022 1:21:10 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

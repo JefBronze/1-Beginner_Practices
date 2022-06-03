@@ -1,0 +1,136 @@
+2022.06.02 22:37:14 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\.metals\lsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.02 22:37:17 INFO  logging to file C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\.metals\metals.log
+2022.06.02 22:37:17 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse' for client Visual Studio Code 1.67.2.
+2022.06.02 22:37:22 INFO  time: initialize in 4.73s
+2022.06.02 22:37:23 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.02 22:37:23 WARN  Build server is not auto-connectable.
+2022.06.02 22:37:28 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jeferson\AppData\Local\Temp\metals15881752348699806511\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.02 22:37:34 ERROR java.lang.UnsupportedOperationException: The Security Manager is deprecated and will be removed in a future release
+2022.06.02 22:37:34 ERROR 	at java.base/java.lang.System.setSecurityManager(System.java:416)
+2022.06.02 22:37:34 ERROR 	at sbt.TrapExit$.installManager(TrapExit.scala:53)
+2022.06.02 22:37:34 ERROR 	at sbt.StandardMain$.runManaged(Main.scala:127)
+2022.06.02 22:37:34 ERROR 	at sbt.xMain$.run(Main.scala:67)
+2022.06.02 22:37:34 ERROR 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2022.06.02 22:37:34 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+2022.06.02 22:37:34 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.scala:45)
+2022.06.02 22:37:34 ERROR 	at sbt.xMain.run(Main.scala:39)
+2022.06.02 22:37:34 ERROR 	at xsbt.boot.Launch$$anonfun$run$1.apply(Launch.scala:111)
+2022.06.02 22:37:34 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:131)
+2022.06.02 22:37:34 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:111)
+2022.06.02 22:37:34 ERROR 	at xsbt.boot.Launch$$anonfun$apply$1.apply(Launch.scala:37)
+2022.06.02 22:37:34 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:120)
+2022.06.02 22:37:34 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:20)
+2022.06.02 22:37:34 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:56)
+2022.06.02 22:37:34 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:18)
+2022.06.02 22:37:34 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2022.06.02 22:37:34 ERROR [error] [launcher] error during sbt launcher: java.lang.UnsupportedOperationException: The Security Manager is deprecated and will be removed in a future release
+2022.06.02 22:37:35 INFO  time: ran 'sbt bloopInstall' in 6.83s
+2022.06.02 22:37:35 ERROR sbt command failed: C:\Program Files\Java\jdk-18.0.1.1\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jeferson\AppData\Local\Temp\metals15881752348699806511\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2022.06.02 22:37:54 INFO  shutting down Metals
+2022.06.02 22:38:42 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\.metals\lsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.02 22:38:45 INFO  logging to file C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\.metals\metals.log
+2022.06.02 22:38:45 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse' for client Visual Studio Code 1.67.2.
+2022.06.02 22:38:51 INFO  time: initialize in 5.47s
+2022.06.02 22:38:51 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.02 22:38:52 WARN  Build server is not auto-connectable.
+2022.06.02 22:38:52 INFO  skipping build import with status 'Failed'
+2022.06.02 22:46:20 INFO  Skipping existing file: C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\.\sparkscalacourse\build.sbt
+2022.06.02 22:46:20 INFO  Skipping existing file: C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\.\sparkscalacourse\project\build.properties
+2022.06.02 22:46:20 INFO  
+2022.06.02 22:46:20 INFO  Template applied in C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\.\sparkscalacourse
+2022.06.02 22:46:20 INFO  
+2022.06.02 22:46:21 INFO  time: ran 'giter8.Giter8' in 9.45s
+2022.06.02 22:47:01 INFO  shutting down Metals
+2022.06.02 22:48:19 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\.metals\lsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.02 22:48:22 INFO  logging to file C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\.metals\metals.log
+2022.06.02 22:48:22 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse' for client Visual Studio Code 1.67.2.
+2022.06.02 22:48:28 INFO  time: initialize in 5.95s
+2022.06.02 22:48:28 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.02 22:48:29 WARN  Build server is not auto-connectable.
+2022.06.02 22:48:30 INFO  skipping build import with status 'Failed'
+2022.06.02 22:48:50 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jeferson\AppData\Local\Temp\metals5403427432601106896\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.02 22:48:57 ERROR java.lang.UnsupportedOperationException: The Security Manager is deprecated and will be removed in a future release
+2022.06.02 22:48:57 ERROR 	at java.base/java.lang.System.setSecurityManager(System.java:416)
+2022.06.02 22:48:57 ERROR 	at sbt.TrapExit$.installManager(TrapExit.scala:53)
+2022.06.02 22:48:57 ERROR 	at sbt.StandardMain$.runManaged(Main.scala:127)
+2022.06.02 22:48:57 ERROR 	at sbt.xMain$.run(Main.scala:67)
+2022.06.02 22:48:57 ERROR 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2022.06.02 22:48:57 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+2022.06.02 22:48:57 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.scala:45)
+2022.06.02 22:48:57 ERROR 	at sbt.xMain.run(Main.scala:39)
+2022.06.02 22:48:57 ERROR 	at xsbt.boot.Launch$$anonfun$run$1.apply(Launch.scala:111)
+2022.06.02 22:48:57 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:131)
+2022.06.02 22:48:57 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:111)
+2022.06.02 22:48:57 ERROR 	at xsbt.boot.Launch$$anonfun$apply$1.apply(Launch.scala:37)
+2022.06.02 22:48:57 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:120)
+2022.06.02 22:48:57 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:20)
+2022.06.02 22:48:57 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:56)
+2022.06.02 22:48:57 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:18)
+2022.06.02 22:48:57 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2022.06.02 22:48:57 ERROR [error] [launcher] error during sbt launcher: java.lang.UnsupportedOperationException: The Security Manager is deprecated and will be removed in a future release
+2022.06.02 22:48:57 INFO  time: ran 'sbt bloopInstall' in 7.26s
+2022.06.02 22:48:57 ERROR sbt command failed: C:\Program Files\Java\jdk-18.0.1.1\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jeferson\AppData\Local\Temp\metals5403427432601106896\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2022.06.02 22:49:01 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jeferson\AppData\Local\Temp\metals16369390987787940251\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.02 22:49:07 ERROR java.lang.UnsupportedOperationException: The Security Manager is deprecated and will be removed in a future release
+2022.06.02 22:49:07 ERROR 	at java.base/java.lang.System.setSecurityManager(System.java:416)
+2022.06.02 22:49:07 ERROR 	at sbt.TrapExit$.installManager(TrapExit.scala:53)
+2022.06.02 22:49:07 ERROR 	at sbt.StandardMain$.runManaged(Main.scala:127)
+2022.06.02 22:49:07 ERROR 	at sbt.xMain$.run(Main.scala:67)
+2022.06.02 22:49:07 ERROR 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2022.06.02 22:49:07 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+2022.06.02 22:49:07 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.scala:45)
+2022.06.02 22:49:07 ERROR 	at sbt.xMain.run(Main.scala:39)
+2022.06.02 22:49:07 ERROR 	at xsbt.boot.Launch$$anonfun$run$1.apply(Launch.scala:111)
+2022.06.02 22:49:07 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:131)
+2022.06.02 22:49:07 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:111)
+2022.06.02 22:49:07 ERROR 	at xsbt.boot.Launch$$anonfun$apply$1.apply(Launch.scala:37)
+2022.06.02 22:49:07 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:120)
+2022.06.02 22:49:07 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:20)
+2022.06.02 22:49:07 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:56)
+2022.06.02 22:49:07 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:18)
+2022.06.02 22:49:07 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2022.06.02 22:49:07 ERROR [error] [launcher] error during sbt launcher: java.lang.UnsupportedOperationException: The Security Manager is deprecated and will be removed in a future release
+2022.06.02 22:49:07 INFO  time: ran 'sbt bloopInstall' in 6.26s
+2022.06.02 22:49:07 ERROR sbt command failed: C:\Program Files\Java\jdk-18.0.1.1\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jeferson\AppData\Local\Temp\metals16369390987787940251\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2022.06.02 22:49:44 INFO  
+2022.06.02 22:49:44 INFO  Template applied in C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\.\cursoudemy
+2022.06.02 22:49:44 INFO  
+2022.06.02 22:49:44 INFO  time: ran 'giter8.Giter8' in 7.22s
+2022.06.02 22:49:51 INFO  shutting down Metals
+2022.06.02 22:54:30 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\.metals\lsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.02 22:54:36 INFO  logging to file C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\.metals\metals.log
+2022.06.02 22:54:36 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse' for client Visual Studio Code 1.67.2.
+2022.06.02 22:54:47 INFO  time: initialize in 10s
+2022.06.02 22:54:48 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.02 22:54:48 WARN  Build server is not auto-connectable.
+2022.06.02 22:54:50 INFO  skipping build import with status 'Failed'
+2022.06.02 22:56:19 WARN  no build target for: C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\project\metals.sbt
+2022.06.02 22:56:28 INFO  no build target found for C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.02 22:56:29 WARN  no build target for: C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\project\metals.sbt
+2022.06.02 22:56:31 INFO  time: code lens generation in 2.54s
+2022.06.02 22:57:17 INFO  shutting down Metals
+2022.06.02 22:58:43 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\.metals\lsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.02 22:58:47 INFO  logging to file C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\.metals\metals.log
+2022.06.02 22:58:47 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse' for client Visual Studio Code 1.67.2.
+2022.06.02 22:58:56 INFO  time: initialize in 8.4s
+2022.06.02 22:58:56 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.02 22:58:57 WARN  Build server is not auto-connectable.
+2022.06.02 22:58:58 INFO  skipping build import with status 'Failed'
+2022.06.02 23:01:41 INFO  shutting down Metals
+2022.06.02 23:04:33 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\.metals\lsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.02 23:04:37 INFO  logging to file C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\.metals\metals.log
+2022.06.02 23:04:37 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse' for client Visual Studio Code 1.67.2.
+2022.06.02 23:04:43 INFO  time: initialize in 6.23s
+2022.06.02 23:04:43 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.02 23:04:45 WARN  Build server is not auto-connectable.
+2022.06.02 23:04:45 INFO  skipping build import with status 'Failed'
+2022.06.02 23:04:48 WARN  no build target for: C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\build.sbt
+2022.06.02 23:05:00 INFO  no build target found for C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\build.sbt. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.02 23:05:07 INFO  time: code lens generation in 17s
+jun. 02, 2022 11:06:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2022.06.02 23:10:46 WARN  no build target for: C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\project\project\metals.sbt
+2022.06.02 23:10:49 WARN  no build target for: C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\project\metals.sbt
+2022.06.02 23:10:53 WARN  no build target for: C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\src\main\scala\CubeCalculator.scala
+2022.06.02 23:10:56 WARN  no build target for: C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\project\project\metals.sbt
+2022.06.02 23:11:09 INFO  shutting down Metals

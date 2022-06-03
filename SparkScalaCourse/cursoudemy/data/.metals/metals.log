@@ -1,0 +1,12 @@
+2022.06.02 22:55:06 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\data\.metals\lsp.trace.json or C:\Users\Jeferson\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.02 22:55:11 INFO  logging to file C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\data\.metals\metals.log
+2022.06.02 22:55:11 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\data' for client Visual Studio Code 1.67.2.
+2022.06.02 22:55:16 INFO  time: initialize in 5.56s
+2022.06.02 22:55:16 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.02 22:55:17 WARN  Build server is not auto-connectable.
+2022.06.02 22:55:17 WARN  no build tool detected in workspace 'C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\SparkScalaCourse\data'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.06.02 22:55:21 WARN  no build target for: C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\src\main\scala\Main.scala
+2022.06.02 22:55:28 INFO  no build target found for C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.02 22:55:31 INFO  time: code lens generation in 9.39s
+2022.06.02 22:56:32 WARN  no build target for: C:\Users\Jeferson\OneDrive\Dev\1Projetos\1_Practice\1 Beginner_Practices\SparkScalaCourse\cursoudemy\project\metals.sbt
+2022.06.02 22:57:16 INFO  shutting down Metals
