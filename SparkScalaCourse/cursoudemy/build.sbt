@@ -1,7 +1,7 @@
 
 // The simplest possible sbt build file is just one line:
 
-scalaVersion := "2.13.8"
+scalaVersion := "3.1.2"
 // That is, to create a valid sbt build, all you've got to do is define the
 // version of Scala you'd like your project to use.
 
@@ -26,10 +26,10 @@ version := "1.0"
 // You can define other libraries as dependencies in your build like this:
 
 libraryDependencies ++= Seq(
-        "org.apache.spark" %% "spark-core" % "3.0.0",
-    "org.apache.spark" %% "spark-sql" % "3.0.0",
-    "org.apache.spark" %% "spark-mllib" % "3.0.0",
-    "org.apache.spark" %% "spark-streaming" % "3.0.0",
+    "org.apache.spark" %% "spark-core" % "3.1.2",
+    "org.apache.spark" %% "spark-sql" % "3.1.2",
+    "org.apache.spark" %% "spark-mllib" % "3.1.2",
+    "org.apache.spark" %% "spark-streaming" % "3.1.2",
     "org.twitter4j" % "twitter4j-core" % "4.0.4",
     "org.twitter4j" % "twitter4j-stream" % "4.0.4",
     "org.scala-lang.modules" %% "scala-parser-combinators" % "2.1.1"
